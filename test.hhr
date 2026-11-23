@@ -1,0 +1,23 @@
+Query         MPPA_HUMAN/77-227
+Match_columns 149
+No_of_seqs    20 out of 20
+Neff          5
+Searched_HMMs 1
+Date          Mon Nov 23 17:00:29 2026
+Command       /usr/libexec/hhsuite/hhalign-avx2 -i M16.hhm -t S8.hhm -o test.hhr 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 B9XHY9_PEDPL/325-678             0.2    0.39    0.39   12.2   0.0   14   51-64     48-61  (294)
+
+No 1
+>B9XHY9_PEDPL/325-678
+Probab=0.15  E-value=0.39  Score=12.16  Aligned_cols=14  Identities=21%  Similarity=0.349  Sum_probs=9.2  Template_Neff=6.000
+
+Q MPPA_HUMAN/77-   51 DEILLTLEKHGGIC   64 (151)
+Q Consensus        51 ~~i~~~le~~Gg~~   64 (149)
+                      .........||-++
+T Consensus        48 ~~~~~~~~~HGThv   61 (294)
+T B9XHY9_PEDPL/3   49 GSTLSGCDGHGNLN   62 (354)
+Confidence            44556677787766
+
+
