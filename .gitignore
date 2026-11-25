@@ -1,3 +1,8 @@
 hhsuite/
 ._*
 Pfam-A.*
+a3m/
+hhm/
+hhr/
+.venv/
+.idea/
