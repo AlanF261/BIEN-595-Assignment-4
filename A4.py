@@ -112,6 +112,9 @@ def toDistance(S):
     np.fill_diagonal(D, 0)
     return D
 
+def buildClans(clansPath):
+    pfamsByClan = {}
+
 def main():
     # ELM_identifiers, interactionDomainID, interactionDomainDescription, interactionDomainName = parse_LMBD("elm_interaction_domains.tsv")
     # # interactionDomainID = {"PF00675", "PF00082"}
